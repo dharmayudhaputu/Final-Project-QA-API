@@ -1,0 +1,24 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+1 TEST SUITE FINAL PROJECT API,,,,13-02-2024 16:16:32,13-02-2024 16:16:49,17.470s,PASSED
+,,,,,,,
+Test Cases/1 TEST CASE AUTH GET TOKEN,,,,13-02-2024 16:16:32,13-02-2024 16:16:38,5.708s,PASSED
+"response = sendRequest(findTestObject(""1 GET TOKEN AUTH""))",,,,13-02-2024 16:16:32,13-02-2024 16:16:35,3.155s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,13-02-2024 16:16:35,13-02-2024 16:16:35,0.032s,PASSED
+Video,,,,13-02-2024 16:16:38,13-02-2024 16:16:38,0.001s,PASSED
+,,,,,,,
+Test Cases/2 TEST CASE GET BOOKING,,,,13-02-2024 16:16:38,13-02-2024 16:16:41,3.588s,PASSED
+"response = sendRequest(findTestObject(""2 GET BOOKING ID""))",,,,13-02-2024 16:16:38,13-02-2024 16:16:39,1.435s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,13-02-2024 16:16:39,13-02-2024 16:16:39,0.005s,PASSED
+Video,,,,13-02-2024 16:16:41,13-02-2024 16:16:41,0.002s,PASSED
+,,,,,,,
+Test Cases/3 TEST CASE POST BOOKING,,,,13-02-2024 16:16:41,13-02-2024 16:16:44,3.263s,PASSED
+"response = sendRequest(findTestObject(""3 POST CREATE BOOKING""))",,,,13-02-2024 16:16:41,13-02-2024 16:16:42,1.157s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,13-02-2024 16:16:42,13-02-2024 16:16:42,0.003s,PASSED
+Video,,,,13-02-2024 16:16:44,13-02-2024 16:16:44,0.001s,PASSED
+,,,,,,,
+Test Cases/4 TEST CASE PUT BOOKING,,,,13-02-2024 16:16:44,13-02-2024 16:16:49,4.720s,PASSED
+"response = sendRequest(findTestObject(""Object Repository/1 GET TOKEN AUTH""))",,,,13-02-2024 16:16:45,13-02-2024 16:16:46,1.140s,PASSED
+"token = getElementPropertyValue(response, ""token"")",,,,13-02-2024 16:16:46,13-02-2024 16:16:46,0.098s,PASSED
+"response2 = sendRequest(findTestObject(""4 PUT BOOKING"", [""userID"":userID]))",,,,13-02-2024 16:16:46,13-02-2024 16:16:47,1.264s,PASSED
+"verifyResponseStatusCode(response2, 200)",,,,13-02-2024 16:16:47,13-02-2024 16:16:47,0.006s,PASSED
+Video,,,,13-02-2024 16:16:49,13-02-2024 16:16:49,0.001s,PASSED

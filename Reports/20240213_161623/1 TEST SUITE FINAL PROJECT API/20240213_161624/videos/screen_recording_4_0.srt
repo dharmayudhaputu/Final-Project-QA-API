@@ -1,0 +1,16 @@
+1
+00:00:00,099 --> 00:00:01,238
+1. response = sendRequest(findTestObject("Object Repository/1 GET TOKEN AUTH"))
+
+2
+00:00:01,239 --> 00:00:01,337
+5. token = getElementPropertyValue(response, "token")
+
+3
+00:00:01,338 --> 00:00:02,601
+9. response2 = sendRequest(findTestObject("4 PUT BOOKING", ["userID":userID]))
+
+4
+00:00:02,602 --> 00:00:02,611
+13. verifyResponseStatusCode(response2, 200)
+
