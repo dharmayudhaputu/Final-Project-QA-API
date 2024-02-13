@@ -1,0 +1,8 @@
+1
+00:00:00,280 --> 00:00:03,540
+1. response = sendRequest(findTestObject("1 GET TOKEN AUTH"))
+
+2
+00:00:03,552 --> 00:00:03,582
+5. verifyResponseStatusCode(response, 200)
+

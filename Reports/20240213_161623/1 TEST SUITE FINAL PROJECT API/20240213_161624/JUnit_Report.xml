@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="1 TEST SUITE FINAL PROJECT API" time="17.47" tests="4" failures="0" errors="0">
+   <testsuite name="1 TEST SUITE FINAL PROJECT API" tests="4" failures="0" errors="0" time="17.47" skipped="0" timestamp="13-02-2024T16:16:32" hostname="ACER - LAPTOP-DI70DTOM" id="Test Suites/1 TEST SUITE FINAL PROJECT API">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\ACER\\git\\Final-Project-QA-API\\Reports\\20240213_161623\\1 TEST SUITE FINAL PROJECT API\\20240213_161624"/>
+         <property name="logFiles" value="C:\\Users\\ACER\\git\\Final-Project-QA-API\\Reports\\20240213_161623\\1 TEST SUITE FINAL PROJECT API\\20240213_161624\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="ACER - LAPTOP-DI70DTOM"/>
+         <property name="hostAddress" value="172.16.213.178"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.3.0.212"/>
+      </properties>
+      <testcase name="Test Cases/1 TEST CASE AUTH GET TOKEN" time="5.708" classname="Test Cases/1 TEST CASE AUTH GET TOKEN" status="PASSED">
+         <system-out><![CDATA[13-02-2024T16:16:32 - [TEST_CASE][PASSED] - Test Cases/1 TEST CASE AUTH GET TOKEN: Test Cases/1 TEST CASE AUTH GET TOKEN
+
+13-02-2024T16:16:32 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("1 GET TOKEN AUTH")): Send request successfully
+
+13-02-2024T16:16:35 - [MESSAGE][INFO] - HAR: C:\Users\ACER\git\Final-Project-QA-API\Reports\20240213_161623\1 TEST SUITE FINAL PROJECT API\20240213_161624\requests\main\0.har
+
+13-02-2024T16:16:35 - [MESSAGE][PASSED] - Send request successfully
+
+13-02-2024T16:16:35 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+13-02-2024T16:16:35 - [MESSAGE][PASSED] - Verify response status code successfully
+
+13-02-2024T16:16:38 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/1 TEST CASE AUTH GET TOKEN' .
+
+13-02-2024T16:16:38 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/1 TEST CASE AUTH GET TOKEN' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/2 TEST CASE GET BOOKING" time="3.588" classname="Test Cases/2 TEST CASE GET BOOKING" status="PASSED">
+         <system-out><![CDATA[13-02-2024T16:16:38 - [TEST_CASE][PASSED] - Test Cases/2 TEST CASE GET BOOKING: Test Cases/2 TEST CASE GET BOOKING
+
+13-02-2024T16:16:38 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("2 GET BOOKING ID")): Send request successfully
+
+13-02-2024T16:16:39 - [MESSAGE][INFO] - HAR: C:\Users\ACER\git\Final-Project-QA-API\Reports\20240213_161623\1 TEST SUITE FINAL PROJECT API\20240213_161624\requests\main\1.har
+
+13-02-2024T16:16:39 - [MESSAGE][PASSED] - Send request successfully
+
+13-02-2024T16:16:39 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+13-02-2024T16:16:39 - [MESSAGE][PASSED] - Verify response status code successfully
+
+13-02-2024T16:16:41 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/2 TEST CASE GET BOOKING' .
+
+13-02-2024T16:16:41 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/2 TEST CASE GET BOOKING' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/3 TEST CASE POST BOOKING" time="3.263" classname="Test Cases/3 TEST CASE POST BOOKING" status="PASSED">
+         <system-out><![CDATA[13-02-2024T16:16:41 - [TEST_CASE][PASSED] - Test Cases/3 TEST CASE POST BOOKING: Test Cases/3 TEST CASE POST BOOKING
+
+13-02-2024T16:16:41 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("3 POST CREATE BOOKING")): Send request successfully
+
+13-02-2024T16:16:42 - [MESSAGE][INFO] - HAR: C:\Users\ACER\git\Final-Project-QA-API\Reports\20240213_161623\1 TEST SUITE FINAL PROJECT API\20240213_161624\requests\main\2.har
+
+13-02-2024T16:16:42 - [MESSAGE][PASSED] - Send request successfully
+
+13-02-2024T16:16:42 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+13-02-2024T16:16:42 - [MESSAGE][PASSED] - Verify response status code successfully
+
+13-02-2024T16:16:44 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/3 TEST CASE POST BOOKING' .
+
+13-02-2024T16:16:44 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/3 TEST CASE POST BOOKING' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/4 TEST CASE PUT BOOKING" time="4.72" classname="Test Cases/4 TEST CASE PUT BOOKING" status="PASSED">
+         <system-out><![CDATA[13-02-2024T16:16:44 - [TEST_CASE][PASSED] - Test Cases/4 TEST CASE PUT BOOKING: Test Cases/4 TEST CASE PUT BOOKING
+
+13-02-2024T16:16:45 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Object Repository/1 GET TOKEN AUTH")): Send request successfully
+
+13-02-2024T16:16:46 - [MESSAGE][INFO] - HAR: C:\Users\ACER\git\Final-Project-QA-API\Reports\20240213_161623\1 TEST SUITE FINAL PROJECT API\20240213_161624\requests\main\3.har
+
+13-02-2024T16:16:46 - [MESSAGE][PASSED] - Send request successfully
+
+13-02-2024T16:16:46 - [TEST_STEP][PASSED] - token = getElementPropertyValue(response, "token"): null
+
+13-02-2024T16:16:46 - [TEST_STEP][PASSED] - response2 = sendRequest(findTestObject("4 PUT BOOKING", ["userID":userID])): Send request successfully
+
+13-02-2024T16:16:47 - [MESSAGE][INFO] - HAR: C:\Users\ACER\git\Final-Project-QA-API\Reports\20240213_161623\1 TEST SUITE FINAL PROJECT API\20240213_161624\requests\main\4.har
+
+13-02-2024T16:16:47 - [MESSAGE][PASSED] - Send request successfully
+
+13-02-2024T16:16:47 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response2, 200): Verify response status code successfully
+
+13-02-2024T16:16:47 - [MESSAGE][PASSED] - Verify response status code successfully
+
+13-02-2024T16:16:49 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/4 TEST CASE PUT BOOKING' .
+
+13-02-2024T16:16:49 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/4 TEST CASE PUT BOOKING' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[13-02-2024T16:16:32 - [TEST_SUITE][PASSED] - 1 TEST SUITE FINAL PROJECT API: Test Cases/4 TEST CASE PUT BOOKING]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
